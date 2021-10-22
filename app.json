@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "starMovieApp",
+    "slug": "starMovieApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "starMovieApp"
+}
