@@ -52,7 +52,7 @@ const SignupComponent = ({ navigation }) => {
           </Text>
         </View>
       </View>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{ marginLeft: 20, marginTop: 30 }}>
           <Formik
             initialValues={{
@@ -134,7 +134,7 @@ const SignupComponent = ({ navigation }) => {
                     }}
                   >
                     <Image
-                      source={require("../images/SignupScreen/lock.png")}
+                      source={require("../images/SignupScreen/mail.png")}
                       style={{ width: 15, height: 15, resizeMode: "contain" }}
                     />
                     <TextInput
@@ -379,7 +379,7 @@ const ProfileComponent = () => {
 
 const SignupScreen = () => {
   return (
-    <Stack.Navigator initialRouteName="signup">
+    <Stack.Navigator>
       <Stack.Screen
         name="signup"
         component={SignupComponent}

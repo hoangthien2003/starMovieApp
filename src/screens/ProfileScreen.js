@@ -216,7 +216,6 @@ const ProfileComponent = ({ navigation }) => {
                 source={require("../images/ProfileScreen/Ellipse-1.png")}
                 style={{
                   position: "absolute",
-                  position: "absolute",
                   width: 40,
                   height: 40,
                   resizeMode: "contain",

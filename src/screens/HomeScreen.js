@@ -89,7 +89,7 @@ const HomeScreen = () => {
           </TouchableOpacity>
         </View>
       </View>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View>
           <FlatList
             horizontal={true}
